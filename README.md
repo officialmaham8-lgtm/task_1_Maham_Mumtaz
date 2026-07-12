@@ -1,15 +1,20 @@
-
-# Smart Environment Monitor
+# Smart Environmental Monitor
 
 ## Description
-This project monitors temperature and humidity using an ESP32 and DHT22 sensor.
 
-## Components
-- ESP32
-- DHT22
+The Smart Environmental Monitor is an IoT project developed using ESP32 and the DHT22 sensor. It measures temperature and humidity in real time and displays the readings on the Serial Monitor. This project demonstrates sensor interfacing, environmental monitoring, and basic IoT firmware development.
 
-## Wokwi Simulation
-https://wokwi.com/projects/468752318140435457
+## Components Used
 
-## GitHub Repository
-https://github.com/officialmaham8-lgtm/task_1_Maham_Mumtaz
+- ESP32 DevKit
+- DHT22 Temperature and Humidity Sensor
+- USB Cable
+- Arduino IDE / Wokwi Simulator
+
+## How to Run
+
+1. Open the project in Wokwi or Arduino IDE.
+2. Connect the DHT22 sensor to the ESP32.
+3. Upload the code to the ESP32.
+4. Open the Serial Monitor.
+5. Observe the live temperature and humidity readings.
